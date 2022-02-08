@@ -244,3 +244,106 @@ section {
   font-size: 1.2em;
   padding: 0 12px 0 0;
 }
+
+@media(max-width: 1400px){
+  .navigation a{
+    padding-left: 15px;
+  }
+
+  .title{
+    font-size: 2em;
+  }
+
+  section {
+    padding: 80px 140px;
+  }
+
+  .main h2{
+    font-size: 1.1em;
+  }
+
+  .main h3 {
+    font-size: 1.6em;
+  }
+
+  .project-card {
+    width: 20em;
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .content2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 900px){
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a{
+    padding-left: 10px;
+  }
+
+  .title{
+    font-size: 1.8em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main h2{
+    font-size: 1em;
+  }
+
+  .main h3 {
+    font-size: 1.5em;
+  }
+
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content2{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media(max-width: 641px){
+  body{
+    font-size: 12px;
+  }
+
+  .main h2{
+    font-size: 0.8em;
+  }
+
+  .main h3 {
+    font-size: 1.3em;
+  }
+}
+
+@media(max-width: 390px){
+  body{
+    font-size: 10px;
+  }
+  .navigation a{
+    padding-left: 10px;
+    font-size: 0.8em;
+  }
+  .footer .social-icons a {
+    font-size: 0.8em;
+    padding: 0 8px 0 0;
+  }
+}
