@@ -48,7 +48,7 @@ section {
   min-height: 100vh;
   align-items: center;
   display: flex;
-  background: url('img/background.jpeg') no-repeat;
+  background: url('img/me_website.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -184,6 +184,7 @@ section {
 
 .project-image img {
   width: 100%;
+  height: 230px;
 }
 
 .project-info {
@@ -199,7 +200,7 @@ section {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 10px;
 }
 
