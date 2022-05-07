@@ -8,6 +8,16 @@
   scroll-behavior: smooth;
 }
 
+.logo img {
+  width: 120;
+  height: 120;
+  /* text-decoration: none;
+  color: #3A6CF4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em; */
+}
+
 header {
   background-color: #F0F0F0;
   width: 100%;
