@@ -19,14 +19,6 @@ header {
   align-items: center;
 }
 
-.logo {
-  text-decoration: none;
-  color: #3A6CF4;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.8em;
-}
-
 .navigation a {
   color: #3A6CF4;
   text-decoration: none;
